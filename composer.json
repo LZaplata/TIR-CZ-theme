@@ -1,7 +1,7 @@
 {
-    "name": "lzaplata/autostyl-theme",
+    "name": "lzaplata/tir-cz-theme",
     "type": "october-theme",
-    "description": "Theme for Autostyl company from Trutnov.",
+    "description": "Theme for TIR CZ company from Trutnov.",
     "require": {
         "composer/installers": "~1.0"
     }

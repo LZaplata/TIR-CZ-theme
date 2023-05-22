@@ -1,9 +1,9 @@
 name: Autostyl
-description: 'Theme for Tir CZ company from Trutnov.'
+description: 'Theme for TIR CZ company from Trutnov.'
 author: 'Lukáš Záplata'
 homepage: ''
 authorCode: LZaplata
-code: autostyl
+code: tircz
 parent: ''
 database: '0'
 require:
