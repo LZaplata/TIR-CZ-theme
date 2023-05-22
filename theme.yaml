@@ -1,0 +1,13 @@
+name: Autostyl
+description: 'Theme for Tir CZ company from Trutnov.'
+author: 'Lukáš Záplata'
+homepage: ''
+authorCode: LZaplata
+code: autostyl
+parent: ''
+database: '0'
+require:
+    - initbiz.seostorm
+    - rainlab.pages
+    - janvince.smallgdpr
+    - lzaplata.extensions

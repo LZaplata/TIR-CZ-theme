@@ -1,0 +1,30 @@
+
+<div class="container-fluid p-0">
+    <header>
+        <div class="bg-primary position-relative fs-6">
+
+            <div class="container-lg px-4">
+                <a href="index.html"><img src="{{ 'assets/images/logo-tircz.png'|theme }}" class="position-absolute" style="width: 100px" alt="logo"></a>
+
+                <div class="text-end d-md-none">
+                    <button class="btn btn-primary py-4 px-0 fs-5" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">Menu<i class="ph ph-list fs-3 ps-2 align-middle"></i></button>
+                </div>
+
+                <div class="offcanvas offcanvas-end bg-dark" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="text-white offcanvas-title" id="staticBackdropLabel">Hlavní menu</h5>
+                        <button type="button" data-bs-dismiss="offcanvas" aria-label="Close" class="border-0 text-white bg-dark fs-2"><i class="ph ph-x"></i></button>
+                    </div>
+
+                    <div class="offcanvas-body container-md">
+                        {% component "offcanvasmenu" %}
+                    </div>
+                </div>
+
+                <div class="d-none d-md-block">
+                    {% component "mainmenu" %}
+                </div>
+            </div>
+        </div>
+    </header>
+</div>
