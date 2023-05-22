@@ -1,0 +1,15 @@
+uuid: dgsa
+handle: DGSA
+type: single
+name: DGSA
+drafts: false
+
+primaryNavigation:
+    label: DGSA
+    order: 40
+
+fields:
+    content:
+        label: Obsah
+        type: richeditor
+        size: huge

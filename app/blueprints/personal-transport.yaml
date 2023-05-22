@@ -1,0 +1,15 @@
+uuid: personal_transport
+handle: PersonalTransport
+type: single
+name: Osobní doprava
+drafts: false
+
+primaryNavigation:
+    label: Osobní doprava
+    order: 10
+
+fields:
+    content:
+        label: Obsah
+        type: richeditor
+        size: huge

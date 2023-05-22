@@ -1,0 +1,15 @@
+uuid: car_transport
+handle: CarTransport
+type: single
+name: Autodoprava
+drafts: false
+
+primaryNavigation:
+    label: Autodoprava
+    order: 0
+
+fields:
+    content:
+        label: Obsah
+        type: richeditor
+        size: huge

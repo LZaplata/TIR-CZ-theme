@@ -1,0 +1,15 @@
+uuid: contact
+handle: Contact
+type: single
+name: Kontakt
+drafts: false
+
+primaryNavigation:
+    label: Kontakt
+    order: 50
+
+fields:
+    content:
+        label: Obsah
+        type: richeditor
+        size: huge

@@ -1,0 +1,15 @@
+uuid: expres
+handle: Expres
+type: single
+name: Expres
+drafts: false
+
+primaryNavigation:
+    label: Expres
+    order: 20
+
+fields:
+    content:
+        label: Obsah
+        type: richeditor
+        size: huge

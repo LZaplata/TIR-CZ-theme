@@ -1,5 +1,5 @@
 {% if __SELF__.menuItems %}
-    <ul class="justify-content-end d-flex py-5 mb-0 list-unstyled container-lg gap-4">
+    <ul class="nav nav-pills justify-content-end d-flex py-5 mb-0 list-unstyled container-lg gap-4">
         {% partial __SELF__ ~ "::items" items=__SELF__.menuItems %}
     </ul>
 {% endif %}

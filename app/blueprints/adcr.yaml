@@ -1,0 +1,15 @@
+uuid: adcr
+handle: ADCR
+type: single
+name: ADCR
+drafts: false
+
+primaryNavigation:
+    label: ADCR
+    order: 30
+
+fields:
+    content:
+        label: Obsah
+        type: richeditor
+        size: huge

@@ -1,0 +1,18 @@
+url = "/vedeni-ucetnictvi"
+layout = "default"
+title = "Vedení účetnictví"
+
+[section accountancy]
+handle = "Accountancy"
+==
+<div class="container-lg px-4 pt-5 pb-4">
+    <main class="pt-xl-4">
+        <h1 class="pb-3 text-primary">
+            {{ accountancy.title }}
+        </h1>
+
+        <div class="content">
+            {{ accountancy.content|raw }}
+        </div>
+    </main>
+</div>

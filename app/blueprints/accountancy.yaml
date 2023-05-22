@@ -1,0 +1,15 @@
+uuid: accountancy
+handle: Accountancy
+type: single
+name: Vedení účetnictví
+drafts: false
+
+primaryNavigation:
+    label: Vedení účetnictví
+    order: 40
+
+fields:
+    content:
+        label: Obsah
+        type: richeditor
+        size: huge

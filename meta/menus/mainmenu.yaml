@@ -1,63 +1,83 @@
 items:
     -
         title: Autodoprava
-        type: url
-        url: /
+        nesting: null
+        type: cms-page
+        url: null
         code: ''
+        reference: autodoprava
+        cmsPage: null
+        replace: null
         viewBag:
             isHidden: '0'
             cssClass: ''
             isExternal: '0'
     -
         title: 'Osobní doprava'
-        type: url
-        url: /
+        nesting: null
+        type: cms-page
+        url: null
         code: ''
+        reference: osobni-doprava
+        cmsPage: null
+        replace: null
         viewBag:
             isHidden: '0'
             cssClass: ''
             isExternal: '0'
     -
         title: Expres
-        type: url
-        url: /
+        nesting: null
+        type: cms-page
+        url: null
         code: ''
+        reference: expres
+        cmsPage: null
+        replace: null
         viewBag:
             isHidden: '0'
             cssClass: ''
             isExternal: '0'
     -
         title: ADCR
-        type: url
-        url: /
+        nesting: null
+        type: cms-page
+        url: null
         code: ''
+        reference: adcr
+        cmsPage: null
+        replace: null
         viewBag:
             isHidden: '0'
             cssClass: ''
             isExternal: '0'
     -
         title: DGSA
-        type: url
-        url: /
+        nesting: null
+        type: cms-page
+        url: null
         code: ''
+        reference: dgsa
+        cmsPage: null
+        replace: null
         viewBag:
             isHidden: '0'
             cssClass: ''
             isExternal: '0'
     -
         title: 'Vedení účetnictví'
-        type: url
-        url: /
+        type: cms-page
         code: ''
+        reference: vedeni-ucetnictvi
         viewBag:
             isHidden: '0'
             cssClass: ''
             isExternal: '0'
     -
         title: Kontakt
-        type: url
-        url: /
+        type: cms-page
         code: ''
+        reference: kontakt
         viewBag:
             isHidden: '0'
             cssClass: ''
